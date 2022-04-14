@@ -31,6 +31,7 @@ import ch.qos.logback.core.status.Status;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class PostagemController {
 	
+	
 	@Autowired //injeção de dependência . Para funcionar em qualquer classe, tenho que colocar  bin
 	private PostagemRepository repository;
 	@Autowired TemaRepository temarepository;
